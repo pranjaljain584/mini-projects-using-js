@@ -1,0 +1,10 @@
+div{
+    height: 12rem;
+    width: 12rem;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* margin-top: 200px; */
+}

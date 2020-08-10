@@ -1,0 +1,33 @@
+.outer-circle{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    background-color:purple;
+    margin-left:48%;
+    margin-top:12.5%;
+    position:relative;
+}
+
+.shape{
+    height:90px;
+    width:90px;
+    display:inline-block;
+    background-color:white;
+    margin-top:30px;
+    margin-left:30px;
+	position:absolute;
+}
+
+.btn1{
+    margin-top:5%;
+    margin-left:50%;
+}
+
+.btn2{
+    margin-top:2%;
+    margin-left:49.5%;
+}
+
+.btn1:hover,.btn2:hover{
+    box-shadow:0px 0px 4px 3px lightgrey;
+}

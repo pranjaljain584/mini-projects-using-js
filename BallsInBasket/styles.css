@@ -1,0 +1,27 @@
+#container{
+    width: 90vw;
+    height: auto;
+    min-height:20vh;
+    border: 2px solid black ;
+    border-top: 0px solid transparent;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+
+#btn{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 1.5;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    display: inline-block;
+    /* background-color: royalblue; */
+}

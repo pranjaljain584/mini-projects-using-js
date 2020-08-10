@@ -1,0 +1,51 @@
+#main{
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    min-width: 50vw;
+}
+
+label{
+    margin-bottom: 10%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+input{
+    display: inline-block;
+}
+
+form{
+    margin-left: 20%;
+}
+
+h2{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+button{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#aside{
+    width: 40vw;
+    height: 100vh;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+#aside div:nth-child(2n){
+    background-color: lightgrey;
+}
+
+#aside div:nth-child(2n+1){
+    background-color:white;
+}
+
+.box{
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
